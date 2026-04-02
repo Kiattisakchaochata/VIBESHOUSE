@@ -3,6 +3,7 @@ import HeroSection from "@/components/home/HeroSection";
 import FeatureSection from "@/components/home/FeatureSection";
 import GalleryPreviewSection from "@/components/home/GalleryPreviewSection";
 import ReviewSection from "@/components/home/ReviewSection";
+import TiktokSection from "@/components/home/TiktokSection";
 
 export const metadata: Metadata = {
   title: "ร้านนั่งชิลบางแสน",
@@ -16,6 +17,7 @@ export default function HomePage() {
       <HeroSection />
       <FeatureSection />
       <GalleryPreviewSection />
+      <TiktokSection />
       <ReviewSection />
     </main>
   );
